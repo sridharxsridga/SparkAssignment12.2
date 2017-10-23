@@ -1,0 +1,15 @@
+/**
+  Given a list of strings - List[String] ("alpha","gamma","omega","zeta","beta");
+  convert the list of string to a list of integers, where each string is mapped to its corresponding length
+*/
+object problemStatement2{
+  def main(args:Array[String]){
+    //First declare a list of strings and store it to val variable signs
+    val signs = List[String]("alpha","gamma","omega","zeta","beta"); 
+
+    //use the map function to get the string and string length and print them
+    println("string and its corresponding length :" + signs.map {s=> (s,s.length)});
+	
+
+}
+}

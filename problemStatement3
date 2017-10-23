@@ -1,0 +1,16 @@
+/**
+  Given a list of strings - List[String] ("alpha","gamma","omega","zeta","beta");
+  find count of all strings which contain alphabet 'm'
+*/
+
+object problemStatement1{
+  def main(args:Array[String]){
+    //First declare a list of strings and store it to val variable signs
+    val signs = List[String]("alpha","gamma","omega","zeta","beta");
+
+    //Use the filter function of list and filter strings which has alphabet'm' and print them
+    println("Strings which contains alphabet 'm' :" + signs.filter(_.contains("m")));
+  
+}
+
+}
